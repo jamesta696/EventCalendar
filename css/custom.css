@@ -3,8 +3,8 @@
     font-size: 22px;
 }
 
-@media screen and (min-width: 768px) {
-    .col-lg-4.col-md-12.mt {
+@media screen and (min-width: 769px) and (max-width: 991px) {
+    .nw-btn.primary-btn {
         margin-top: 20px;
     }
 }
