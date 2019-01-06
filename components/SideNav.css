@@ -1,0 +1,80 @@
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: all 0.5s ease;
+}
+
+.sidenav a:hover {
+    color: #fff;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    
+}
+
+.sidenav > .accordion {
+    margin-top: 30px;
+}
+
+.side-container #main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+.side-container.active-sb .sidenav{
+    width:250px;
+    /* transition: all .5s ease; */
+}
+
+.side-container #main .menu {
+    position: relative;
+    top: -35px;
+    right: 25px;
+    color: #fff;
+}
+
+.side-container.active-sb #main .menu{
+    margin-left: 250px;
+    transition: margin-left .5s ease;
+    position: relative;
+    top: -35px;
+    right: 25px;
+}
+
+#left-nav > .accordion-button{
+    background-color: transparent;
+    color: #fff;
+    font-weight: 700;
+}
+
+#main-accord .accordion-button{
+    background-color: #1e1e1e;
+    color: #fff;
+    font-weight: 700;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}

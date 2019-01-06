@@ -1,0 +1,29 @@
+.EventItem {
+    height: 88px;
+    margin-bottom: 10px;
+}
+
+.event-dates {
+    overflow: auto;
+    max-height: 300px;
+}
+
+.EventItem .col-8 {
+    flex: 0 1 66.66667%;
+}
+
+.EventItem .col-8.name {
+    max-width: 20%;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+.EventItem .col-8.desc {
+    word-wrap: break-word;
+    height: auto;
+    overflow: hidden;
+}
+
+.single-event.d-flex.flex-row.EventItem.active {
+    height: auto;
+}

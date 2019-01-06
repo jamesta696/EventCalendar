@@ -1,0 +1,10 @@
+.fa-times-circle::before {
+    color: red;
+    font-size: 22px;
+}
+
+@media screen and (min-width: 768px) {
+    .col-lg-4.col-md-12.mt {
+        margin-top: 20px;
+    }
+}

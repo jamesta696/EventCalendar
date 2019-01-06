@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+  }
+  .sub-menu {
+    float:left;
+    width:20%;
+    text-align:center;
+  }
+  .sub-menu a {
+    background-color:#1e1e1e;
+    padding:8px;
+    margin-top:7px;
+    display:block;
+    width:100%;
+    color:#fff;
+  }
+  .main {
+    float:left;
+    width:60%;
+    padding:0 20px;
+  }
+  .right {
+    background-color:#1e1e1e;
+    float:left;
+    width:20%;
+    padding:15px;
+    margin-top:7px;
+    text-align:center;
+  }
+  
+  @media only screen and (max-width:620px) {
+    /* For mobile phones: */
+    .sub-menu, .main, .right {
+      width:100%;
+    }
+  }
+
+  .exercise-text{
+      color: black;
+  }

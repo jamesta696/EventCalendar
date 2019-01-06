@@ -1,0 +1,59 @@
+.accordion {
+    margin-top: 7px;
+}
+
+.accordion-button {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: all .5s ease-out;
+}
+
+.accordion-button.active, 
+.accordion-button:hover {
+    background-color: #ccc;
+}
+
+/*panels should be hidden by default*/
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+
+/*the + will target the next sibling next to the <button>
+and display it.*/
+.accordion-button.active + .panel {
+    display: block;
+}
+
+.accordion-button.active:after {
+    content: '\02795'; 
+    font-size: 13px;
+    float: right;
+    margin-left: 5px;
+    visibility: hidden;
+
+}
+
+.accordion-button:before {
+    content: '\02795'; 
+    font-size: 13px;
+    float: right;
+    margin-left: 5px;
+    
+    
+
+}
+
+.active:before {
+    content: "\2796";
+
+}
