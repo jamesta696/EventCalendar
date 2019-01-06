@@ -99,7 +99,7 @@ class ModalPop {
 
                             <div class="input-group mb-3">
                                 <div class="input-group-prepend">
-                                <span class="input-group-text" id="inputGroup-sizing-default">Name</span>
+                                <span class="input-group-text" id="inputGroup-sizing-default">Description</span>
                                 </div>${" "}
                                 <input id="desc" placeholder="Write a description" type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" required="required">
                             </div>
